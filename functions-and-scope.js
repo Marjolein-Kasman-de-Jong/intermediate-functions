@@ -126,7 +126,7 @@ console.log(highest);
 // highestGrade([8, 9, 4, 6, 10]) geeft 10
 
 function highestGrade(grades) {
-    let highest = 0;
+    let highest = grades[0];
     for (let i = 0; i < grades.length; i++) {
         if (grades[i] > highest) {
             highest = grades[i];
